@@ -304,9 +304,9 @@ text-decoration: none;
 	display: inline-block;
 	width: 25px;
 	height: 48px;
-    position: absolute;
-    top: 270px;
-    left: 450px;
+    position: relative;
+    top: 137px;
+    right: 40px;
 }
 .product:after{
 	content: '';
@@ -318,7 +318,7 @@ text-decoration: none;
 	bottom: 135px;
 	left: 605px;
 }
-h1{
+h2{
     color: #000;
     font-size: 24px;
     width: 280px;
