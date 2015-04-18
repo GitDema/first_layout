@@ -400,7 +400,7 @@ h2{
     top: -1100px;
     left: 260px;
 }
-.sale{margin-bottom: 30px;}
+.sale{margin-bottom: 50px;}
 
 h3 a{
     color: #000;
@@ -413,76 +413,125 @@ h3 a:hover{
 
 .line-product{
     width: 200px;
-    height: 150px;
+    height: 225px;
     display: inline-block;
     margin-left: 20px;
+    vertical-align: middle;
+}
+.line-product img{
+    width: 195px;
+    height: 146px;
 }
 
-.line-product a{
-    line-height: 20px;
-    color: #da501a;
+
+.bt-coast{
+    display: block;
+    background: #4f4f4f;
+    width: 110px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    position: relative;
+    top: -40px;
+    left: 90px;
     text-align: center;
+    line-height: 35px;
+    color: #fff;
+    font-size: 24px;
 }
-.line-product p{margin-top: 10px;}
 
-.line-product a:hover{
+
+.link-text{
+    position: relative;
+    top: -30px;
+    color: #da501a;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+.link-text:hover{
     text-decoration: none;
 }
-
-.one:after{
-    content: '18 480 p.';
-    display: block;
-    width: 110px;
-    height: 35px;
-    text-align: center;
-    line-height: 35px;
-    font-size: 24px;
-    color: #fff;
-    background: #4f4f4f;
-    border: 1px solid #fff;
-    border-radius: 3px;
-    position: relative;
-    bottom: 85px;
-    left: 90px;
-}
-.two:after{
-    content: '5 712 p.';
-    display: block;
-    width: 110px;
-    height: 35px;
-    text-align: center;
-    line-height: 35px;
-    font-size: 24px;
-    color: #fff;
-    background: #4f4f4f;
-    border: 1px solid #fff;
-    border-radius: 3px;
-    position: relative;
-    bottom: 85px;
-    left: 90px;
-}
-.three:after{
-    content: '18 240 p.';
-    display: block;
-    width: 110px;
-    height: 35px;
-    text-align: center;
-    line-height: 35px;
-    font-size: 24px;
-    color: #fff;
-    background: #4f4f4f;
-    border: 1px solid #fff;
-    border-radius: 3px;
-    position: relative;
-    bottom: 85px;
-    left: 90px;
-}
-
+.up-case{text-transform: uppercase;}
 h4 a{
     color: #000;
     font-size: 16px;
     font-weight: normal;
 }
 h4 a:hover{
+    text-decoration: none;
+}
+
+/*end-goods*/
+
+/*LAST-VIEW*/
+
+.last-view{
+    width: 690px;
+    height: 350px;
+    position: relative;
+    bottom: 1050px;
+    left: 270px;
+}
+h5{
+    width: 250px;
+    font-weight: normal;
+    color: #4f4f4f; 
+    font-size: 24px;
+}
+.last-view img{
+    width: 162px;
+    height: 121px;
+    padding: 5px 20px 5px 20px;
+    float: left;
+    border: 1px solid #9a9a9a;
+    margin-right: 15px;
+    clear: both;
+}
+
+.last-view a{
+    color: #da501a;
+    line-height: 20px;
+}
+.last-view a:hover{
+    text-decoration: none;
+}
+
+.last-view p{
+    color: #4f4f4f;
+    font-size: 13px;
+    padding-top: 10px;
+    line-height: 18px;
+}
+
+.last-view-cont{
+    margin-bottom: 50px;
+}
+
+/*END-LAST_VIEW*/
+
+/*ABOUT COMPANY*/
+
+.company{
+    width: 690px;
+    height: 150px;
+    position: relative;
+    bottom: 990px;
+    left: 270px;
+}
+h6{
+    font-weight: normal;
+    color: #4f4f4f; 
+    font-size: 24px;
+}
+.company p{
+    font-size: 13px;
+    line-height: 18px;
+}
+.company a{
+    color: #da501a;
+}
+.company a:hover{
     text-decoration: none;
 }
