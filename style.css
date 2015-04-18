@@ -192,8 +192,8 @@ header{
 .main{
     background: #fff;
     width: 960px;
-    margin: 0 auto;
-	margin-top: 5px;
+    margin: 5px auto;
+    
     
 }
 
@@ -534,4 +534,55 @@ h6{
 }
 .company a:hover{
     text-decoration: none;
+}
+/*END-ABOUT COMPANY*/
+
+
+
+/*  FOOTER  */
+
+footer{
+    width: 960px;
+    clear: both;
+    margin: 0 auto;
+    font-size: 13px;
+    color: #4f4f4f;
+}
+
+.bottom-menu{
+    background: #fff;
+	height: 45px;
+    margin: 0 auto;
+	padding: 0 30px;
+	line-height: 45px;
+    margin-bottom: 15px;
+}
+
+.bottom-menu a{
+	color: #4f4f4f;
+}
+.bottom-menu a:hover{
+	text-decoration: none;
+    color: #da501a;
+}
+
+footer p{
+    clear: both;
+    padding-bottom: 5px;
+    padding-left: 30px;
+}
+footer a{
+    color: #4f4f4f;
+}
+footer img{
+    position: relative;
+    bottom: 80px;
+    left: 350px;
+    margin: 0 5px;
+}
+.author-design{
+    width: 200px;
+    position: relative;
+    bottom: 115px;
+    left: 700px;
 }
