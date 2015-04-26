@@ -54,18 +54,23 @@ header{
 }
 
 .search{
+    display: inline-block;
 	height: 25px;
 	width: 220px;
+    float: right;
+    margin-top: 13px;
 	margin-left: 95px; 
 	padding-left: 10px;	
 	border-radius: 3px;
+    position: relative;
 }
 .search-icon{
+    display: inline-block;
 	width: 15px;
 	height: 15px;
-	position: relative;
-	bottom: 46px;
-	left: 870px;
+	position: absolute;
+	top: 19px;
+	right: 230px;
 	background: url(images/search.gif) no-repeat;
 }
 .top-menu input:focus + .search-icon{
@@ -293,12 +298,17 @@ header{
 
 /*CONTENT*/
 
+.right-content {
+    width: 695px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
 .product{
 	width: 635px;
 	height: 280px;
-	display: inline-block;
-	vertical-align: top;
-	margin: 0 0 0 60px;
+	margin: 0 0 50px 60px;
     
 }
 .product:before{
@@ -396,9 +406,8 @@ h2{
 
 .goods{
     width: 700px;
-    position: relative;
-    top: -1100px;
-    left: 260px;
+    margin-bottom: 70px;
+    
 }
 .sale{margin-bottom: 50px;}
 
@@ -470,9 +479,7 @@ h4 a:hover{
 .last-view{
     width: 690px;
     height: 350px;
-    position: relative;
-    bottom: 1050px;
-    left: 270px;
+    margin-bottom: 50px;
 }
 h5{
     width: 250px;
@@ -515,10 +522,8 @@ h5{
 
 .company{
     width: 690px;
-    height: 150px;
-    position: relative;
-    bottom: 990px;
-    left: 270px;
+    height: 150px;  
+    margin-bottom: 30px;
 }
 h6{
     font-weight: normal;
