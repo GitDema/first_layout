@@ -70,7 +70,7 @@ header{
 	height: 15px;
 	position: absolute;
 	top: 19px;
-	right: 230px;
+	right: 270px;
 	background: url(images/search.gif) no-repeat;
 }
 .top-menu input:focus + .search-icon{
